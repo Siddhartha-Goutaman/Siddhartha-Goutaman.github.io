@@ -14,21 +14,23 @@ body {
 
 .taskbar {
     background-color: #2B3E4F;
-    padding: 10px;
+    padding: 0.625rem;
     color: white;
     display: flex;
-    height: 100px;
+    height: 6.25rem;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    width: 200px;
+    width: 12.5rem;
 }
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 1.5rem;
+    margin-right: 5%;
+    font-size: large;
 }
 
 .nav-links a {
@@ -49,7 +51,7 @@ video {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 86px;
+    font-size: 5.375rem;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1.4px;
@@ -66,7 +68,7 @@ video {
     text-align: justify;
     background-color: #2B3E4F;
     margin: 0;
-    height: 30rem;
+    /* height: 30rem; */
 }
 
 .column {
@@ -96,15 +98,15 @@ video {
 .content-box, .content-boxM {
     border-radius: 2px;
    
-    margin-left: 200px;
-    margin-top: 120px;
+    margin-left: 12.5rem;
+    margin-top: 11.25rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 0.938rem;
     position: relative
 }
 
 .content-box p {
-    font-size: 15px;
+    font-size: 0.938rem;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 25px;
@@ -117,20 +119,20 @@ video {
     width: 100%;
     height: 2px;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .lineb {
     width: 100%;
     height: 2px;
     background-color: black;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .small-image {
     position: absolute;
     top: -30px;
-    left: 10px;
+    left: 0.625rem;
     width: 30px;
 }
 
@@ -141,7 +143,7 @@ video {
 .image-columns {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .image-column {
@@ -150,8 +152,20 @@ video {
 }
 
 .image-column img {
-    max-width: 300px;
-    height: auto
+    width: 15rem;
+    height: auto;
+}
+
+.image-column h3 {
+  color: #2B3E4F;
+  font-family: Helvetica;
+  font-weight: 600;
+
+}
+
+b {
+  color: white;
+  font-weight: bold;
 }
 
 .grid-container {
@@ -160,7 +174,7 @@ video {
     grid-template-rows: 1fr 1fr; 
     grid-template-columns: repeat(3, 1fr); 
     gap: 150px;
-    padding:100px;
+    padding:6.25rem;
     margin: 0; 
 }
 
@@ -173,14 +187,14 @@ video {
     color: white;
     font-size: 18px;
     position: relative;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .grid-item-textB::before, .grid-item-textU::before {
-    margin-top: -20px;
+    margin-top: -1.25rem;
     margin-left: 0px;
     content: '';
-    width: 200px;
+    width: 12.5rem;
     height: 2px;
     position: absolute;
     border-top: 2px solid white;
@@ -209,7 +223,7 @@ header {
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
-    perspective: 10px;
+    perspective: 0.625rem;
 
 }
 
@@ -221,7 +235,7 @@ header {
 
 .left-column {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .left-column .grid {
@@ -232,32 +246,32 @@ header {
 }
 
 .left-column .grid-item {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     color: black;
 }
 
 .right-column {
     flex: 1;
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 .form-container {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 50px;
+    padding: 3.125rem;
 }
 
 .form-container label {
     display: block;
-    margin-bottom: 10px;
-    margin-left: 60px;
+    margin-bottom: 0.625rem;
+    margin-left: 3.75rem;
 }
 
 .form-container input,
 .form-container textarea {
     width: 60%;
-    padding: 10px;
-    margin-bottom: 10px;
-    margin-left: 60px;
+    padding: 0.625rem;
+    margin-bottom: 0.625rem;
+    margin-left: 3.75rem;
     display: flex;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -267,12 +281,12 @@ header {
 .form-container button {
     background-color: #2B3E4F;
     color: white;
-    padding: 10px 20px;
-    margin-left: 60px;
+    padding: 0.625rem 1.25rem;
+    margin-left: 3.75rem;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 400px;
+    width: 25rem;
 }
 
 .form-container button:hover {
@@ -281,14 +295,14 @@ header {
 
 .name-inputs {
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .content-box button {
-    height: 40px;
-    width: 150px;
+    height: 2.5rem;
+    width: 9.375rem;
     font-size: 14px;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
 #contact {
@@ -308,7 +322,7 @@ overflow-x: hidden;
   color: black;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 1.25rem;
   border-top: 2px solid #2B3E4F;
 }
 #footer-container::after {
@@ -355,7 +369,7 @@ overflow-x: hidden;
 #right-container textarea {
   width: 100%;
   padding: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   box-sizing: border-box;
 }
 
@@ -398,7 +412,7 @@ background-color: #4C6C9E;
 #logo {
   width: 50px;
   height: 50px;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 #logo-container {
@@ -417,7 +431,7 @@ background-color: #4C6C9E;
 }
 
 #nav a {
-  margin-right: 20px;
+  margin-right: 1.25rem;
   color: white;
   text-decoration: none;
   transition: color 0.5s;
@@ -441,14 +455,14 @@ background-color: #4C6C9E;
 
 #main-content {
   padding-top: 5cm;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 
 
 #footer {
   background-color: #2B3E4F;
-  padding: 20px;
+  padding: 1.25rem;
   text-align: center;
   color: white;
 }
@@ -467,7 +481,7 @@ background-color: #4C6C9E;
 #container-right img {
   width: 30px;
   height: 50px;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 
@@ -493,7 +507,7 @@ background-color: #4C6C9E;
   font-size: 2.5rem;
   color: black;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 #financial-subheading {
@@ -501,20 +515,20 @@ background-color: #4C6C9E;
   font-weight: bold;
   color: black;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 #financial-paragraph {
   font-size: 1rem;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 #business-heading {
   font-size: 2.5rem;
   color: black;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 #business-subheading {
@@ -522,13 +536,13 @@ background-color: #4C6C9E;
   font-weight: bold;
   color: black;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 #business-paragraph {
   font-size: 1rem;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 
@@ -537,8 +551,8 @@ background-color: #4C6C9E;
   width: 100%;
   display: flex;
   color: white;
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 1.25rem;
+  padding: 1.25rem;
 }
 
 #second-container p {
@@ -567,8 +581,8 @@ background-color: #4C6C9E;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 1.25rem;
+  padding: 1.25rem;
 }
 
 #business-solutions-heading {
@@ -580,7 +594,7 @@ background-color: #4C6C9E;
   font-size: 1rem;
   color: black;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   font-weight: bold;
 }
 
@@ -631,8 +645,8 @@ background-color: #4C6C9E;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 1.25rem;
+  padding: 1.25rem;
 }
 
 #offshore-model-heading {
@@ -644,7 +658,7 @@ background-color: #4C6C9E;
   font-size: 1rem;
   color: black;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   font-weight: bold;
 }
 
@@ -656,8 +670,8 @@ background-color: #4C6C9E;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 1.25rem;
+  padding: 1.25rem;
 }
 
 #back-office-heading {
@@ -670,24 +684,24 @@ background-color: #4C6C9E;
   font-size: 1rem;
   color: black;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 
 .outer-box {
   background-color: #1A2B3C;
-  padding: 20px;
+  padding: 1.25rem;
   box-sizing: border-box;
   height: 650px;
 }
 
 .inner-box {
-  margin: 60px;
+  margin: 2rem;
   background-color: #2B3E4F;
   display: flex;
   justify-content: space-between;
-  padding: 15px;
-  height: 470px;
+  padding: 1rem;
+  height: 30rem;
 }
 
 .column2 {
@@ -695,25 +709,26 @@ background-color: #4C6C9E;
 }
 
 .left-column2 {
-  padding-right: 20px;
+  flex: 1;
+  padding-right: 1.25rem;
 }
 
 .right-column2 {
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 .right-column2 img {
-  height: 400px;
+  height: 25rem;
   width: auto;
 }
 
 .left-column2 img {
-  height: 400px;
+  height: 25rem;
   width: auto;
 }
 
 .contact-form .row .input-group {
-margin-right: 10px;
+margin-right: 0.625rem;
   display: flex;
   flex-direction: column;
   width: 46%;
@@ -721,13 +736,13 @@ margin-right: 10px;
 .social-icons, .address-icon, .email-icon, .phone-icon {
   font-size: 24px;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .contact-form .row {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 footer {
   background-color: #fff;
@@ -740,27 +755,27 @@ footer {
 }
 .box {
   flex: 50%;
-padding-top: 100px;
+padding-top: 6.25rem;
   display: flex;
   align-items:  flex-start;;
   justify-content: flex-start; 
 
-min-height: 410px;
+min-height: 40.625rem;
 }
 
 .left-box, .right-box {
    border-right: 1px solid #000;
-  padding-left: 100px;
+  padding-left: 6.25rem;
   padding-right: 50px;
-padding-top:100px;
+padding-top:6.25rem;
 }
 
 .left-box {
   border-right: 1px solid #000;
 }
 .right-box {
-  padding-left: 110px;
-  padding-right: 10px;
+  padding-left: 10.625rem;
+  padding-right: 0.625rem;
 }
 .column {
   display: flex;
@@ -786,14 +801,14 @@ margin-right: 30px;
 .contact-form textarea, 
 .contact-form button {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
+  padding: 0.625rem;
+  margin-bottom: 1.25rem;
   box-sizing: border-box;
   border-radius: 8px;
 }
 
 .contact-form textarea {
-  height: 100px;
+  height: 6.25rem;
   width:500px;
   border-radius: 8px;
   box-sizing: border-box;
@@ -805,21 +820,21 @@ margin-right: 30px;
   border: none;
   cursor: pointer;
   border-radius: 8px;
-width:500px;
+  width:31.25rem;
 }
 .contact-form .row {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .contact-form button:hover {
   background-color: #1A2B3C;
 }
 
 .social-icons {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 a{
@@ -828,7 +843,7 @@ a{
 
 .parallax {
 
-  min-height: 500px; 
+  min-height: 31.25rem; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -847,7 +862,7 @@ a{
   }
 
   .logo {
-      width: 150px;
+      width: 9.375rem;
   }
 
   .nav-links {
@@ -855,13 +870,13 @@ a{
       flex-direction: column;
       align-items: center;
       padding: 0;
-      margin-top: 10px;
+      margin-top: 0.625rem;
   }
 
   .text-overlay {
-      font-size: 40px;
+      font-size: 2.5rem;
       line-height: 1.2;
-      padding: 0 20px;
+      padding: 0 1.25rem;
       text-align: center;
       margin-top: -30%;
   }
@@ -873,8 +888,8 @@ a{
 
  
   .content-box {
-      margin: 10px;
-      padding: 15px;
+      margin: 0.625rem;
+      padding: 0.938rem;
   }
 
  
@@ -885,13 +900,13 @@ a{
  
   .grid-container {
       grid-template-columns: 1fr;
-      padding: 20px;
-      gap: 20px;
+      padding: 1.25rem;
+      gap: 1.25rem;
   }
 
  
   .grid-item-text {
-      font-size: 16px;
+      font-size: 1rem;
   }
 
  
@@ -910,7 +925,7 @@ a{
   footer .box {
       width: 100%;
       text-align: center;
-      padding: 15px;
+      padding: 0.938rem;
   }
 
   footer .box.left-box, footer .box.right-box {
@@ -928,6 +943,7 @@ a{
 #omindex-title {
   margin-left: -73%;
   font-size: 1rem;
+  margin-top: 50%;
 }
 
 #bsindex-title {
@@ -951,10 +967,8 @@ a{
   }
 
   .content-boxM {
-    margin-bottom: -14%;
-    padding: 15px;
+    padding-left: 0.938rem;
     margin-left: 10%;
-    margin-top: 5%;
   }
 
   .content-boxMH {
@@ -962,7 +976,7 @@ a{
   }
 
   #our-mission {
-    font-size: 60px !important; 
+    font-size: 3.75rem !important; 
   }
 
   .image-columns {
@@ -970,7 +984,6 @@ a{
   }
 
   .contenttextL, .contenttextR {
-    margin-left: 5%;
     width: 90% !important;
   }
 
@@ -979,7 +992,7 @@ a{
   }
 
   button {
-    border-radius: 20px;
+    border-radius: 1.25rem;
     text-align: center !important;
   }
 
@@ -1031,14 +1044,14 @@ a{
 
   .column2.left-column2, .column2.right-column2 {
     width: auto;
-    padding: 15px;
+    padding: 0.938rem;
     text-align: center;
   }
 
   .column2 img {
     width: 100%;
     height: auto;
-    max-width: 400px;
+    max-width: 25rem;
     margin: 0 auto;
   }
 
@@ -1057,7 +1070,7 @@ a{
 
   .contact-form {
     width: auto;
-    padding: 10px;
+    padding: 0.625rem;
   }
 
   .contact-form .row {
@@ -1082,7 +1095,7 @@ a{
 
   .box {
     width: 100%;
-    padding: 10px;
+    padding: 0.625rem;
   }
 
   .box.left-box, .box.right-box {
@@ -1098,8 +1111,8 @@ a{
 
   h1, #financial-heading {
     font-size: 2rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
     text-align: center;
   }
 
@@ -1203,7 +1216,7 @@ a{
   .parallax {
     background-attachment: scroll;
     background-position: center;
-    min-height: 200px;
+    min-height: 12.5rem;
   }
 
   #fai-button, #omi-button {
@@ -1214,4 +1227,4 @@ a{
     text-align: left !important;
   }
 
-}  
+} 
