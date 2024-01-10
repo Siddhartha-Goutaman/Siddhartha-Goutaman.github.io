@@ -425,4 +425,8 @@ strong {
         margin: 1rem;
         text-align: justify;
     }
+    .parallax {
+        background-attachment: scroll;
+        background-position: center;
+    }
 }
