@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://kit.fontawesome.com/bf06f191be.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
 		<link rel="stylesheet" href="style.css"/>
 		<title>Finsultants-new</title>
 	</head>
@@ -25,10 +26,10 @@
 
         <div class="face">
             <div class="overlay">
-                <h1 style="font-size: 7em; font-weight: 300; letter-spacing: 2;">Finsultants</h1>
+                <h1>Finsultants</h1>
                 <h3>Empowering through expertise</h3>
             </div>
-            <div class="video">
+            <div class="video-container">
                 <video autoplay loop src="assets/mainbg.mp4"></video>
             </div>
         </div>
@@ -41,9 +42,10 @@
             <video autoplay loop src="assets/mainbg.mp4"></video>
         </div> -->
 
-        <div class="content">
-            <div class="column" style="background-color: #2b3e4f;">
+        <div class="content rev">
+            <div class="column" style="background-color: #2b3e4f; flex-direction: column;" id="mission">
                     <h1 style="color: white;"> Our Mission </h1>
+                    <div class="linew" style="width: 10%;"></div>
             </div>
             <div class="column">
                 <div class="writeups">
@@ -61,7 +63,7 @@
             <h1 style="font-weight: 300; font-size: 3rem;">Our Services</h1>
         </center>
 
-        <div class="content">
+        <div class="content str">
             <div class="vector">
                 <a href="index2.html#financial-advisory">
                     <img src="assets/v_fa.png" alt="financial">
@@ -71,7 +73,7 @@
             <div class="vector">
                 <a href="index2.html#business-solutions">
                     <img src="assets/v_bs.png" alt="financial">
-                    <figcaption>Business Solutions</figcaption>
+                    <figcaption style="margin-left: 10%;">Business Solutions</figcaption>
                 </a>
             </div>
             <div class="vector">
@@ -90,7 +92,7 @@
 
         <div class="content">
             <div class="column" style="background-color: #2b3e4f;">
-                <div class="column-content">
+                <div class="column-content L">
                     <img src="assets/sv_fa.png" alt="financial-vector" class="vectorimage">
                     <div class="linew" style="width: 50%;"></div>
                     <h4 style="color: white;">Financial Advisory</h4>
@@ -107,12 +109,12 @@
             </div>
         </div>
 
-        <div class="content">
+        <div class="content rev">
             <div class="column">
                 <img src="assets/bs.jpg" alt="business-solutions" class="main-image">
             </div>
             <div class="column">
-                <div class="column-content">
+                <div class="column-content R">
                     <img src="assets/sv_bs.png" alt="financial-vector" class="vectorimage">
                     <div class="lineb" style="width: 50%;"></div>
                     <h4 style="color: #2b3e4f;">Business Solutions</h4>
@@ -131,7 +133,7 @@
 
         <div class="content">
             <div class="column" style="background-color: #2b3e4f;">
-                <div class="column-content">
+                <div class="column-content L">
                     <img src="assets/sv_om.png" alt="financial-vector" class="vector-image">
                     <div class="linew" style="width: 50%;"></div>
                     <h4 style="color: white;">Offshore Model</h4>
@@ -148,12 +150,12 @@
             </div>
         </div>
 
-        <div class="content">
+        <div class="content rev">
             <div class="column">
                 <img src="assets/bo.jpg" alt="business-solutions" class="main-image">
             </div>
             <div class="column">
-                <div class="column-content">
+                <div class="column-content R">
                     <img src="assets/sv_bo.png" alt="financial-vector" class="vectorimage">
                     <div class="lineb" style="width: 50%;"></div>
                     <h4 style="color: #2b3e4f;">Back Office Support</h4>
@@ -173,27 +175,27 @@
                 <h2>Why choose us</h2>
             </div>
             <div class="grid-item"></div>
-            <div class="grid-item">
+            <div class="grid-item B">
                 <div class="linew"></div>
                 Seasoned Expertise
             </div>
-            <div class="grid-item">
+            <div class="grid-item B">
                 <div class="linew"></div>
                 Tailored Solutions
             </div>
-            <div class="grid-item">
+            <div class="grid-item B">
                 <div class="linew"></div>
                 Client-centric focus
             </div>
-            <div class="grid-item">
+            <div class="grid-item U">
                 <div class="linew"></div>
                 Simplified logistics
             </div>
-            <div class="grid-item">
+            <div class="grid-item U">
                 <div class="linew"></div>
                 Efficiency and effectiveness
             </div>
-            <div class="grid-item">
+            <div class="grid-item U">
                 <div class="linew"></div>
                 Extensive network
             </div>
@@ -203,8 +205,9 @@
             <div class="parallax" style="background-image: url(assets/main.jpg);"></div>
         </div>
 
-        <div class="content">
-            <div class="column">
+
+        <div class="content" id="footer">
+            <div class="column footerborder">
                 <div class="grid-contact">
                     <div class="contact" id="contactform">
                         <i class="fa-solid fa-location-dot fa-xl"></i>
@@ -222,13 +225,12 @@
                     <div class="contact">  
                         <i class="fa-solid fa-envelope fa-xl"></i>
                         <h3> Mail</h3>
-                        <p>
                             <a href="mailto:sales@finsultants.com">sales@finsultants.com</a>
-                        </p>
                     </div>
                     <div class="contact">
                         <i class="fa-solid fa-thumbs-up fa-xl"></i>
                         <h3> Social Media</h3>
+                        <div style="flex-direction: row;">
                             <a href="">
                             <i class="fa-brands fa-facebook"></i>
                             </a>
@@ -241,6 +243,7 @@
                             <a href="">
                             <i class="fa-brands fa-instagram"></i>
                             </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -252,12 +255,29 @@
                     </div>
                     <input type="text" name="Email" placeholder="Email" style="width: 90%;">
                     <br>
-                    <input type="text" name="Enquiry" placeholder="Enquiry" style="width: 90%; height: 10rem;">
+                    <input type="textarea" name="Enquiry" placeholder="Enquiry" style="width: 90%; height: 10rem;">
                     <br>
-                    <button type="submit">Send</button>
+                    <button type="submit" style="padding: 0.5rem;">Send</button>
                 </form>
             </div>
         </div>
 
+        <script>
+             var slideLeft = {
+            distance: '150%',
+            origin: 'left',
+            delay: 600
+            };
+            var slideRight = {
+            distance: '150%',
+            origin: 'right',
+            delay: 600
+            };
+            ScrollReveal().reveal('.main-image',{delay: 200, origin: 'left'});
+            ScrollReveal().reveal('.R', slideRight);
+            ScrollReveal().reveal('.L', slideLeft);
+            ScrollReveal().reveal('.B',{delay: 600, origin: 'bottom', distance: "100%"});
+            ScrollReveal().reveal('.U',{delay: 600, origin: 'top', distance: "100%"});
+        </script>
 	</body>
 </html>
