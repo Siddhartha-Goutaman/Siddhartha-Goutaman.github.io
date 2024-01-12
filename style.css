@@ -127,13 +127,18 @@ video {
     align-items: center;
 }
 
+.headings {
+    flex: 1;
+    display: flex;
+    background-color: #2b3e4f;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
 .overlay h1 {
-    font-size: 7rem; font-weight: 750; letter-spacing: 2;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
+    font-size: 7rem; font-weight: 700; letter-spacing: 2;
 }
 
 .writeups {
