@@ -25,11 +25,11 @@ body{
 }
 
 .services::-webkit-scrollbar-thumb {
-    background: #304557;
+    background: #D7D7D5;
 }
 
 .services::-webkit-scrollbar-thumb:hover {
-    background: #273745;
+    background: #a9a9a5;
 }
 
 a {
@@ -97,6 +97,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.face img {
+    height: auto;
+    width: 100%;
 }
 
 video {
