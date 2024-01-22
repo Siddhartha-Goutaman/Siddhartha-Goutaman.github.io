@@ -65,7 +65,7 @@ a {
     align-items: center;
     justify-content: center;
     color: black;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .links{
@@ -85,12 +85,8 @@ a {
     font-size: 1rem; 
 }
 
-.navbar a {
+.link:hover {
     color: white;
-}
-
-.navbar a:hover {
-    color: #e3e3e1;
 }
 
 .face {
@@ -440,7 +436,10 @@ strong {
         flex-direction: column;
     }
     .str {
-        flex-direction: row;
+        flex-direction: column;
+    }
+    .str img {
+        width: 100vw;
     }
     .column-content {
         width: 90vw;
@@ -475,5 +474,8 @@ strong {
     .parallax {
         background-attachment: scroll;
         background-position: center;
+    }
+    .contact-form input {
+        margin: 1.5rem;
     }
 }
